@@ -1,109 +1,204 @@
 # Steam & Ember
 
-Черновой комплект тем для Sublime Text 4 в кофейной палитре.
+A calm, coffee-inspired theme and color scheme for Sublime Text 4.
 
-- **Espresso** — спокойная тёмно-коричневая тема с тёплым оранжевым акцентом.
-- **Crema** — светлая бежево-кофейная тема с более тёмными, читаемыми цветами синтаксиса.
+Steam & Ember combines warm brown surfaces, crema neutrals, and restrained ember-orange accents. It includes two coordinated variants designed for comfortable work throughout the day:
 
-Статус: **draft 0.3**. Espresso сохраняет оформление 0.2, а Crema получила более яркие акцентные цвета и подготовлена к живому тесту в Sublime Text 4, build 4200, на macOS.
+- **Espresso** — a dark, low-glare theme with warm highlights.
+- **Crema** — a soft light theme with balanced, colorful syntax accents.
 
-## Что изменилось в 0.3
+> **Project status:** pre-release `v0.3`.  
+> Currently tested with Sublime Text 4, build 4200, on macOS.
 
-- обновлена только светлая тема Crema;
-- оранжевый акцент стал ярче в редакторе, вкладках и элементах интерфейса;
-- усилено различие ключевых слов, строк, типов, чисел, декораторов, функций и классов;
-- базовые бежевые поверхности и мягкий фон блоков кода сохранены без изменений.
+## Preview
 
-## Что входит
-
-| Файл | Назначение |
+| Espresso | Crema |
 |---|---|
-| `Steam & Ember Espresso.sublime-color-scheme` | Цвета редактора и синтаксиса для тёмного режима |
-| `Steam & Ember Crema.sublime-color-scheme` | Цвета редактора и синтаксиса для светлого режима |
-| `Steam & Ember Espresso.sublime-theme` | Тёмный интерфейс: вкладки, sidebar, панели, статусы Git |
-| `Steam & Ember Crema.sublime-theme` | Светлый интерфейс |
-| `Preferences.sublime-settings.example` | Пример автоматического переключения вместе с macOS |
-| `samples/` | Markdown- и Python-файлы для первого визуального теста |
+| ![Steam & Ember Espresso](assets/steam-and-ember-espresso.png) | ![Steam & Ember Crema](assets/steam-and-ember-crema.png) |
 
-Две UI-темы сделаны намеренно: так Espresso и Crema получают свои точные оттенки интерфейса, а Sublime переключает их через `dark_theme` и `light_theme`.
+### Color Palette
 
-## Характер темы
+![Steam & Ember color palette](assets/steam-and-ember-palette.png)
 
-- средний контраст без неоновой резкости;
-- оранжевый акцент для ключевых слов, активных элементов и изменённых файлов;
-- заголовки Markdown используют один тёплый цвет, постепенно угасающий от H1 к H6;
-- служебные символы Markdown видимы, но приглушены;
-- цитаты и комментарии тише основного текста;
-- строки, числа, типы, функции и декораторы различаются цветами;
-- блоки кода получают отдельный фон;
-- скруглённые вкладки используют штатные ресурсы Sublime Text 4.
-- активная вкладка получает отдельный фон и тонкую оранжевую линию.
-- верхняя панель окон macOS продолжает кофейную палитру темы;
-- фон Markdown-кода остаётся различимым, но меньше выделяется относительно редактора.
+## Features
 
-## Основные палитры
+- Matching UI themes and editor color schemes.
+- Dark Espresso and light Crema variants.
+- Warm coffee-inspired surfaces without excessive yellow tones.
+- Restrained ember-orange interface accents.
+- Rounded tabs using native Sublime Text resources.
+- Clearly highlighted active tabs and modified files.
+- Medium contrast designed for long reading and editing sessions.
+- Carefully styled Markdown headings, links, quotes, and code blocks.
+- Distinct colors for Python keywords, strings, types, numbers, functions, classes, and decorators.
+
+
+## Variants
+
+| Variant | Appearance | Character |
+|---|---|---|
+| Espresso | Dark | Deep brown surfaces with warm orange highlights |
+| Crema | Light | Soft beige surfaces with balanced colorful accents |
+
+Both variants include a UI theme and a matching color scheme.
+
+## Included Files
+
+| File | Purpose |
+|---|---|
+| `Steam & Ember Espresso.sublime-theme` | Dark Sublime Text interface |
+| `Steam & Ember Espresso.sublime-color-scheme` | Dark editor and syntax colors |
+| `Steam & Ember Crema.sublime-theme` | Light Sublime Text interface |
+| `Steam & Ember Crema.sublime-color-scheme` | Light editor and syntax colors |
+| `Preferences.sublime-settings.example` | Example configuration with automatic theme switching |
+| `samples/` | Markdown and Python files used for visual testing |
+
+## Installation
+
+### Manual Installation
+
+1. Download or clone this repository.
+2. In Sublime Text, open **Settings → Browse Packages**.
+3. Open the `User` directory.
+4. Copy the following four files into it:
+
+   - `Steam & Ember Espresso.sublime-theme`
+   - `Steam & Ember Espresso.sublime-color-scheme`
+   - `Steam & Ember Crema.sublime-theme`
+   - `Steam & Ember Crema.sublime-color-scheme`
+
+5. Return to Sublime Text and select the desired theme and color scheme through the Settings menu.
+
+Sublime Text normally reloads theme files automatically, so a restart should not be necessary.
+
+### Package Control
+
+Steam & Ember is not available through Package Control yet. Package Control distribution is planned for a future release.
+
+## Configuration
 
 ### Espresso
 
-| Роль | Цвет |
-|---|---|
-| Фон редактора | `#241C19` |
-| Основной текст | `#E6D7C6` |
-| Активная строка | `#2E231F` |
-| Sidebar | `#1E1715` |
-| Акцент | `#E58A4B` |
-| Комментарии | `#8F7C6E` |
-| Строки | `#AAB68D` |
-| Типы | `#9FB2AF` |
-| Числа | `#C99AB9` |
+Select:
+
+- **Theme:** `Steam & Ember Espresso`
+- **Color Scheme:** `Steam & Ember Espresso`
 
 ### Crema
 
-| Роль | Цвет |
-|---|---|
-| Фон редактора | `#F2E8DA` |
-| Основной текст | `#4A342B` |
-| Активная строка | `#EAD8C3` |
-| Sidebar | `#E6D6C3` |
-| Акцент интерфейса | `#D66A25` |
-| Комментарии | `#746154` |
-| Строки | `#536F29` |
-| Типы | `#367272` |
-| Числа | `#8A4B73` |
+Select:
 
-## Шрифт
+- **Theme:** `Steam & Ember Crema`
+- **Color Scheme:** `Steam & Ember Crema`
 
-В теме интерфейса остаётся системный шрифт macOS. Для текста редактора в примере выбран встроенный **Menlo**, поэтому ничего устанавливать не требуется.
+### Automatic Dark and Light Switching
 
-Визуальная цель для окончательного варианта — **JetBrains Mono**: он серьёзный, хорошо читается в Markdown и Python и подходит к мягкой геометрии темы. Если позже решим его установить, достаточно заменить в пользовательских настройках:
+To follow the system appearance on macOS, add the following values to your Sublime Text user settings:
 
 ```json
-"font_face": "JetBrains Mono"
+{
+    "theme": "auto",
+    "dark_theme": "Steam & Ember Espresso.sublime-theme",
+    "light_theme": "Steam & Ember Crema.sublime-theme",
+
+    "color_scheme": "auto",
+    "dark_color_scheme": "Steam & Ember Espresso.sublime-color-scheme",
+    "light_color_scheme": "Steam & Ember Crema.sublime-color-scheme"
+}
 ```
 
-## Как будет устанавливаться после утверждения
+Do not replace your entire settings file if it already contains personal preferences. Add or update only the relevant properties.
 
-Пока выполнять эти действия не нужно.
+### Optional UI Settings
 
-1. Скопировать четыре файла темы в `Packages/User` Sublime Text.
-2. Добавить нужные строки из `Preferences.sublime-settings.example` в пользовательские настройки, не перетирая существующие значения без ревизии.
-3. Отключить minimap через `View → Minimap`. У Sublime это состояние интерфейса, а не надёжная обычная настройка в файле Preferences.
-4. Проверить Markdown, Python, поиск, sidebar, Git-статусы и оба режима macOS.
+Reccomended settings if you want to experience Steam & Ember as it was intended.
 
-## Что проверить в первом живом тесте
+```json
+{
+    "file_tab_style": "rounded",
+    "highlight_modified_tabs": true,
+    "font_face": "Menlo",
+    "font_size": 15,
+    "line_padding_top": 2,
+    "line_padding_bottom": 2,
+    "highlight_line": true,
+    "highlight_gutter": true,
+    "caret_style": "smooth",
+    "draw_minimap_border": false
+}
+```
 
-- не слишком ли тёмный Espresso вечером;
-- не уходит ли Crema в жёлтый на конкретном дисплее;
-- достаточно ли заметны выделение и текущая строка;
-- комфортна ли разница H1–H6;
-- не слишком ли много цветов в Python;
-- удобно ли читать комментарии и длинные Markdown-документы;
-- не слишком ли яркая оранжевая линия у активной вкладки.
 
-## Перед публикацией на GitHub
+## Syntax Support
 
-- выбрать окончательную лицензию;
-- заменить временное поле автора;
-- добавить скриншоты Markdown и Python;
-- провести длительный рабочий тест на Markdown- и Python-проектах;
-- после этого подготовить структуру репозитория и описание для Package Control.
+Steam & Ember uses standard Sublime Text scopes and should work with most built-in syntaxes.
+
+The current release has been tested most extensively with:
+
+- Markdown
+- Python
+- JSON
+- Sublime Text settings and theme files
+
+Support for additional languages will be refined as the project develops.
+
+## Compatibility
+
+Currently tested with:
+
+- Sublime Text 4, build 4200
+- macOS
+
+The theme may also work on Windows and Linux, but those platforms have not yet been tested. Feedback and screenshots from other systems are welcome.
+
+## Project Status
+
+Steam & Ember is currently in pre-release development. Colors, interface details, filenames, and package structure may still change before `v1.0.0`.
+
+The current `v0.3` update focuses primarily on Crema:
+
+- brighter syntax accents;
+- improved separation between token types;
+- stronger active interface elements;
+- preserved soft beige surfaces and subtle code-block backgrounds.
+
+## Roadmap
+
+- Add polished Markdown and Python screenshots.
+- Test both variants during longer work sessions.
+- Improve support for additional programming languages.
+- Test the theme on Windows and Linux.
+- Finalize the repository structure.
+- Choose and add an open-source license.
+- Prepare the package for Package Control.
+- Publish the first stable `v1.0.0` release.
+
+## Feedback
+
+If you find an inconsistent color, unreadable syntax element, or interface issue, please open a GitHub Issue.
+
+When reporting a visual problem, include:
+
+- your operating system;
+- Sublime Text version;
+- active Steam & Ember variant;
+- syntax or file type;
+- a screenshot when possible.
+
+## Contributing
+
+Suggestions, bug reports, and small improvements are welcome while the project is in development.
+
+For larger changes, please open an Issue first so the proposed direction can be discussed before implementation.
+
+## License
+
+A license will be selected before the first public release.
+
+Until then, Steam & Ember should be treated as a pre-release project whose redistribution terms have not yet been finalized.
+
+## Author
+
+Created and maintained by [matveybp](https://github.com/matveybp).
+
+Steam & Ember began as a personal Sublime Text setup inspired by espresso, flat whites, warm interiors, and calm creative workspaces.
