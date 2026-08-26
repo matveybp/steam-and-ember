@@ -1,0 +1,18 @@
+{
+    "theme": "auto",
+    "dark_theme": "Steam & Ember Espresso.sublime-theme",
+    "light_theme": "Steam & Ember Crema.sublime-theme",
+    "color_scheme": "auto",
+    "dark_color_scheme": "Steam & Ember Espresso.sublime-color-scheme",
+    "light_color_scheme": "Steam & Ember Crema.sublime-color-scheme",
+    "file_tab_style": "rounded",
+    "highlight_modified_tabs": true,
+    "font_face": "Menlo",
+    "font_size": 15,
+    "line_padding_top": 2,
+    "line_padding_bottom": 2,
+    "highlight_line": true,
+    "highlight_gutter": true,
+    "caret_style": "smooth",
+    "draw_minimap_border": false
+}
