@@ -7,8 +7,8 @@ Steam & Ember combines warm brown surfaces, crema neutrals, and restrained ember
 - **Espresso** — a dark, low-glare theme with warm highlights.
 - **Crema** — a soft light theme with balanced, colorful syntax accents.
 
-> **Project status:** pre-release `v0.3`.  
-> Currently tested with Sublime Text 4, build 4200, on macOS.
+> **Project status:** active development · current version `0.3.0`.
+> Steam & Ember is designed for Sublime Text 4 on macOS, Windows, and Linux. It is currently tested on Sublime Text 4, build 4200, on macOS. Exact title-bar rendering may vary by operating system.
 
 ## Preview
 
@@ -57,43 +57,58 @@ Both variants include a UI theme and a matching color scheme.
 
 ### Manual Installation
 
-1. Download or clone this repository.
-2. In Sublime Text, open **Settings → Browse Packages**.
-3. Open the `User` directory.
-4. Copy the following four files into it:
+1. Download the [latest Steam & Ember release](https://github.com/matveybp/steam-and-ember/releases/latest) archive from GitHub.
+2. Extract the downloaded archive.
+3. Make sure the extracted folder is named `Steam & Ember`.
+4. Open the Command Palette in Sublime Text:
+   - macOS: `⌘ ⇧ P`
+   - Windows/Linux: `Ctrl + Shift + P`
+5. Run `Preferences: Browse Packages`.
+6. Move the entire `Steam & Ember` folder into the directory that opens.
 
-   - `Steam & Ember Espresso.sublime-theme`
-   - `Steam & Ember Espresso.sublime-color-scheme`
-   - `Steam & Ember Crema.sublime-theme`
-   - `Steam & Ember Crema.sublime-color-scheme`
+The resulting structure should look like this:
 
-5. Return to Sublime Text and select the desired theme and color scheme through the Settings menu.
+```text
+Packages/
+├── User/
+└── Steam & Ember/
+    ├── Steam & Ember Espresso.sublime-theme
+    ├── Steam & Ember Espresso.sublime-color-scheme
+    ├── Steam & Ember Crema.sublime-theme
+    └── Steam & Ember Crema.sublime-color-scheme
+```
 
-Sublime Text normally reloads theme files automatically, so a restart should not be necessary.
+The `Steam & Ember` folder should be placed next to `User`, not inside it.
 
-### Package Control
+Sublime Text normally detects the theme automatically. If it does not appear immediately, restart the editor.
 
-Steam & Ember is not available through Package Control yet. Package Control distribution is planned for a future release.
 
 ## Configuration
 
-### Espresso
+### Selecting a variant
 
-Select:
+Open the Command Palette and run:
 
-- **Theme:** `Steam & Ember Espresso`
-- **Color Scheme:** `Steam & Ember Espresso`
+1. `UI: Select Theme`
+2. Select either:
+   - `Steam & Ember Espresso`
+   - `Steam & Ember Crema`
+3. Run `UI: Select Color Scheme`.
+4. Select the color scheme matching your chosen theme.
 
-### Crema
+Use matching theme and color scheme variants for the intended appearance:
 
-Select:
+| Variant  | Theme                    | Color Scheme             |
+| -------- | ------------------------ | ------------------------ |
+| Espresso | `Steam & Ember Espresso` | `Steam & Ember Espresso` |
+| Crema    | `Steam & Ember Crema`    | `Steam & Ember Crema`    |
 
-- **Theme:** `Steam & Ember Crema`
-- **Color Scheme:** `Steam & Ember Crema`
+> [!TIP]
+> Feel free to mix the Espresso and Crema themes and color schemes—you may discover a coffee blend you prefer.
 
 ### Automatic Dark and Light Switching
 
-To follow the system appearance on macOS, add the following values to your Sublime Text user settings:
+To follow your operating system’s appearance, open `Preferences: Settings` from the Command Palette and add the following properties to your user settings:
 
 ```json
 {
@@ -111,13 +126,12 @@ Do not replace your entire settings file if it already contains personal prefere
 
 ### Optional UI Settings
 
-Reccomended settings if you want to experience Steam & Ember as it was intended.
+Recommended settings if you want to experience Steam & Ember as it was intended.
 
 ```json
 {
     "file_tab_style": "rounded",
     "highlight_modified_tabs": true,
-    "font_face": "Menlo",
     "font_size": 15,
     "line_padding_top": 2,
     "line_padding_bottom": 2,
@@ -128,6 +142,7 @@ Reccomended settings if you want to experience Steam & Ember as it was intended.
 }
 ```
 
+> The preview images use Menlo. Steam & Ember itself does not require a specific font. You can use this font by adding `"font_face": "Menlo"` to the settings file.
 
 ## Syntax Support
 
@@ -153,7 +168,7 @@ The theme may also work on Windows and Linux, but those platforms have not yet b
 
 ## Project Status
 
-Steam & Ember is currently in pre-release development. Colors, interface details, filenames, and package structure may still change before `v1.0.0`.
+Steam & Ember is currently in active development. Colors, interface details, filenames, and package structure may still change before `v1.0.0`.
 
 The current `v0.3` update focuses primarily on Crema:
 
@@ -164,12 +179,10 @@ The current `v0.3` update focuses primarily on Crema:
 
 ## Roadmap
 
-- Add polished Markdown and Python screenshots.
 - Test both variants during longer work sessions.
 - Improve support for additional programming languages.
 - Test the theme on Windows and Linux.
 - Finalize the repository structure.
-- Choose and add an open-source license.
 - Prepare the package for Package Control.
 - Publish the first stable `v1.0.0` release.
 
@@ -193,9 +206,9 @@ For larger changes, please open an Issue first so the proposed direction can be 
 
 ## License
 
-A license will be selected before the first public release.
+Steam & Ember is released under the [MIT License](LICENSE).
 
-Until then, Steam & Ember should be treated as a pre-release project whose redistribution terms have not yet been finalized.
+Copyright © 2026 [matveybp](https://github.com/matveybp).
 
 ## Author
 

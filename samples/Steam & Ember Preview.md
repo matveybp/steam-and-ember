@@ -10,7 +10,7 @@
 
 ###### The quietest heading
 
-Text stays calm. **Important thought feels warmer**, and *a small clarification stays quieter*. Ссылка ведёт к [документации Sublime Text](https://www.sublimetext.com/docs/).
+Text stays calm. **Important thought feels warmer**, and *a small clarification stays quieter*. And a link to [my profile](https://github.com/matveybp) also looks good.
 
 > A good theme never draws attention to itself.
 > It helps you stay focused on the text for longer.
