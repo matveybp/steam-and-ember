@@ -10,19 +10,18 @@
 
 ###### The quietest heading
 
-Обычный текст остаётся спокойным. **Важная мысль выглядит теплее**, а *небольшое
-уточнение — тише*. Ссылка ведёт к [документации Sublime Text](https://www.sublimetext.com/docs/).
+Text stays calm. **Important thought feels warmer**, and *a small clarification stays quieter*. Ссылка ведёт к [документации Sublime Text](https://www.sublimetext.com/docs/).
 
-> Хорошая тема не перетягивает внимание на себя.
-> Она помогает дольше оставаться в тексте.
+> A good theme never draws attention to itself.
+> It helps you stay focused on the text for longer.
 
-- тёплый коричневый фон;
-- оранжевый акцент;
-- разные, но спокойные цвета синтаксиса;
-- [x] Espresso готов к первому тесту;
-- [ ] проверить Crema на реальном дисплее.
+- a warm brown background;
+- an ember-orange accent;
+- varied yet calm syntax colors;
+- [x] Espresso is ready for its test;
+- [ ] test Crema on a real display.
 
-`inline_code()` получает отдельный кофейный фон.
+`inline_code()` gets its own coffee-toned background.
 
 ```python
 from dataclasses import dataclass
@@ -38,15 +37,14 @@ class Coffee:
 ```
 
 > [!NOTE]
-> Заметка использует холодный приглушённый оттенок.
+> Notes use a cool, muted shade.
 
 > [!TIP]
-> Совет получает спокойный шалфейный цвет.
+> Tips receive a calm sage accent.
 
 > [!WARNING]
-> Предупреждение заметно, но не кричит.
+> Warnings stand out without shouting.
 
 ---
 
-Финальная цель — интерфейс, который ощущается как чашка флэт-уайта рядом с
-рабочим блокнотом.
+The end goal is an interface that feels like a cup of flat white beside an open notebook.
